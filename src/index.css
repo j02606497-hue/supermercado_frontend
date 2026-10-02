@@ -1,0 +1,52 @@
+body {
+  background: #f4f7fb;
+  color: #1f2937;
+}
+
+.navbar-brand {
+  font-weight: 700;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  gap: 1rem;
+}
+
+.table-responsive {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(15, 23, 42, 0.06);
+}
+
+.btn {
+  border-radius: 8px;
+}
+
+.modal {
+  position: fixed;
+  inset: 0;
+  z-index: 1055;
+  display: block;
+  overflow-y: auto;
+}
+
+.modal-dialog {
+  position: relative;
+  z-index: 1060;
+}
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 1040;
+  background: rgba(15, 23, 42, 0.55);
+}
+
+.form-label {
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+}
+
